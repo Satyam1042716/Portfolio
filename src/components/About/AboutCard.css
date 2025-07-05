@@ -1,0 +1,42 @@
+.about-card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 15px !important;
+  padding: 30px;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  color: #ffffff !important;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.about-card .card-body {
+  padding: 0;
+}
+
+.about-card .card-text {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e2e8f0 !important;
+}
+
+.about-card strong {
+  color: #667eea;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 20px;
+    margin: 15px 0;
+  }
+  
+  .about-card .card-text {
+    font-size: 1em;
+  }
+} 

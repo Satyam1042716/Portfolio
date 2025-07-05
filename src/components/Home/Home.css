@@ -1,0 +1,136 @@
+.home-section {
+  position: relative;
+  z-index: 1;
+}
+
+.home-content {
+  padding: 5rem 0 2rem;
+  color: whitesmoke;
+  z-index: 1;
+  position: relative;
+}
+
+.home-header {
+  padding-top: 4rem;
+  padding-right: 0;
+  position: relative;
+}
+
+.heading {
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  font-size: 2.5em !important;
+  padding-left: 110px !important;
+  margin-bottom: 10px !important;
+}
+
+.heading-name {
+  font-size: 2.5em !important;
+  padding-left: 100px !important;
+  color: #ffffff !important;
+}
+
+.main-name {
+  color: #667eea !important;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+.home-about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  text-align: center;
+}
+
+.home-about-description {
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.home-about-body {
+  margin-top: 20px;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.home-about-social {
+  margin-top: 15px;
+  color: #ffffff !important;
+}
+
+.home-about-social h1 {
+  font-size: 1.2em;
+  color: #ffffff !important;
+}
+
+.home-about-social p {
+  font-size: 1.1em;
+  color: #ffffff !important;
+}
+
+.home-about-social-links {
+  justify-content: center;
+  padding-left: 50px !important;
+}
+
+.home-social-icons {
+  position: relative !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  margin: 0 10px;
+}
+
+.home-social-icons:hover {
+  color: #667eea !important;
+  bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 2rem 0 2rem;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .heading {
+    font-size: 2em !important;
+    padding-left: 5px !important;
+    text-align: center;
+  }
+
+  .heading-name {
+    font-size: 2em !important;
+    padding-left: 5px !important;
+    text-align: center;
+  }
+
+  .home-about-description {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .home-about-body {
+    font-size: 1em;
+    text-align: center;
+  }
+} 
