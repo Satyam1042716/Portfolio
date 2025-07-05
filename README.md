@@ -14,98 +14,76 @@
 
 </div>
 
+---
+
 ## 👨‍💻 About Me
 
 I'm **Satyam Jaiswal**, a Computer Science student specializing in IoT and Full-Stack Development. Currently pursuing B.Tech at PSIT Kanpur with a CGPA of 8.1/10.
 
 ### 🏆 Achievements
+
 - **Salesforce AgentBlazer Champion**
 - **300+ DSA Problems** solved
 - **5+ Hackathons** participated
 - **3+ Projects** completed
 
+---
+
 ## 🛠️ Built With
 
 This portfolio was built using modern web technologies:
 
-- **React.js** - Frontend framework
-- **React Bootstrap** - UI components
-- **CSS3** - Custom styling
-- **React Router** - Navigation
-- **React Icons** - Icon library
-- **Typewriter Effect** - Animated text
-- **Particles.js** - Background effects
+- **React.js** — Frontend framework
+- **React Bootstrap** — UI components
+- **CSS3** — Custom styling
+- **React Router** — Navigation
+- **React Icons** — Icon library
+- **Typewriter Effect** — Animated text
+- **Particles.js** — Background effects
+
+---
 
 ## 🚀 Features
 
-- **📱 Fully Responsive** - Works on all devices
-- **🎨 Modern Design** - Professional and clean UI
-- **⚡ Fast Performance** - Optimized for speed
-- **🔗 Easy Navigation** - Smooth page transitions
-- **📄 Multiple Sections** - Home, About, Projects, Resume
+- 📱 **Fully Responsive** — Works on all devices
+- 🎨 **Modern Design** — Professional and clean UI
+- ⚡ **Fast Performance** — Optimized for speed
+- 🔗 **Easy Navigation** — Smooth page transitions
+- 📄 **Multiple Sections** — Home, About, Projects, Resume
+
+---
 
 ## 📋 Sections
 
-1. **🏠 Home** - Introduction and quick stats
-2. **👤 About** - Personal information and journey
-3. **💼 Projects** - Showcase of my work
-4. **📄 Resume** - Professional experience and skills
+1. 🏠 **Home** — Introduction and quick stats
+2. 👤 **About** — Personal information and journey
+3. 💼 **Projects** — Showcase of my work
+4. 📄 **Resume** — Professional experience and skills
+
+---
+
+## 🌐 Live Website
+
+🔗 [Check out my live portfolio here!](https://satyam-52.netlify.app/)
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Satyam1042716/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm start
-   ```
-
-4. **Open in browser**
-   ```
-   http://localhost:3000
-   ```
-
-## 📦 Build for Production
-
 ```bash
-npm run build
-```
+# Clone the repository
+git clone https://github.com/Satyam1042716/portfolio.git
+cd portfolio
 
-## 🌐 Deployment
+# Install dependencies
+npm install
 
-This portfolio can be deployed on:
-- **Netlify** (Recommended)
-- **Vercel**
-- **GitHub Pages**
-- **Firebase Hosting**
-
-## 📞 Contact
-
-- **LinkedIn**: [Satyam Jaiswal](https://linkedin.com/in/satyam-jaiswal-15489a259)
-- **GitHub**: [Satyam1042716](https://github.com/Satyam1042716)
-- **Email**: [Your Email]
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<div align="center">
-  Made with ❤️ by Satyam Jaiswal
-</div>
+# Start the development server
+npm start
